@@ -1,0 +1,12 @@
+\frametitle{Metodologia}
+\begin{lstlisting}[language=Python, caption = Lógica Fuzzy(cont.)]
+(total, radical, nMatch) = relevancia()
+rele = 0
+
+# A relevancia final do texto e calculada somando as relevancias de cada palavra do dicionario dividido pela quantidade
+# de palavras no dicionario
+for word, key in enumerate(total):
+	rele += fuzzyText.fuzzyRelText(total[key], radical[stemmer.stem(key)], nMatch[stemmer.stem(key)])
+
+print(rele/len(total))
+\end{lstlisting}

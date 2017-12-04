@@ -1,0 +1,40 @@
+[System]
+Name='fuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='total'
+Range=[0 1]
+NumMFs=2
+MF1='nRelevante':'trimf',[-0.4 0 0.799895506792059]
+MF2='relevante':'trimf',[0.202194357366771 0.997 1.4]
+
+[Input2]
+Name='radical'
+Range=[0 1]
+NumMFs=2
+MF1='nRelevante':'trimf',[-0.4 0 0.797805642633229]
+MF2='relevante':'trimf',[0.199059561128527 1 1.4]
+
+[Output1]
+Name='relevancia'
+Range=[0 1]
+NumMFs=3
+MF1='poucoRelevante':'trimf',[-0.4 0 0.4]
+MF2='relvante':'trimf',[0.1 0.5 0.9]
+MF3='muito':'trimf',[0.6 1 1.4]
+
+[Rules]
+2 2, 3 (1) : 1
+1 1, 1 (1) : 1
+2 1, 2 (0.6) : 1
+1 2, 2 (0.4) : 1
