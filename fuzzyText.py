@@ -19,14 +19,17 @@ def fuzzyRelText(relTotal=0, relRadical=0, relNoMatch=0):
     #Total
     total['nRelevante'] = fuzzy.trimf(total.universe, [0, 0, 0.8])
     total['relevante'] = fuzzy.trimf(total.universe, [0.2, 1, 1])
+    total.view()
 
     #Radical
     radical['nRelevante'] = fuzzy.trimf(radical.universe, [0, 0, 0.8])
     radical['relevante'] = fuzzy.trimf(radical.universe, [0.2, 1, 1])
+    radical.view()
 
     #NoMatch
     noMatch['nRelevante'] = fuzzy.trimf(noMatch.universe, [0, 0, 0.8])
     noMatch['relevante'] = fuzzy.trimf(noMatch.universe, [0.2, 1, 1])
+    noMatch.view()
 
     #resultado
     nivelRelevancia['poucoRelevante'] = fuzzy.trimf(nivelRelevancia.universe, [0, 0, 0.4])
@@ -64,6 +67,8 @@ def fuzzyRelText(relTotal=0, relRadical=0, relNoMatch=0):
 
     #Defuzzificação
     resultado.compute()
+    
+    nivelRelevancia.view(sim=resultado)
 
     return resultado.output['Relevancia']
 

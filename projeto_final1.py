@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 
 import nltk
 from nltk.stem import RSLPStemmer
@@ -11,7 +11,7 @@ stemmer = RSLPStemmer() #extração dos radicais das palavras
 
 palavras = ['jogador', 'futebol'] # dicioario
 
-arquivo = open('medicina.txt', 'r') #abrindo o arquivo
+arquivo = open('futebol.txt', 'r') #abrindo o arquivo
 
 texto = arquivo.read() # texto a ser comparado
 
@@ -70,7 +70,7 @@ def relevancia():
     relevancia_radical_sum = 0
     relevancia_nMatch_sum = 0
 
-    # calculas a relevancia dos 3 casos com a seguinte formula: value_matchs_found / total_matchs
+    # calcula a relevancia dos 3 casos com a seguinte formula: value_matchs_found / total_matchs
     for matchPalavra, key in enumerate(total):
         relevancia_total_sum += total[key]
 

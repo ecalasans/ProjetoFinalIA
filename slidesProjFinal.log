@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.29)  4 DEC 2017 09:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 DEC 2017 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,6 +992,26 @@ LaTeX Info: Redefining \textlatin on input line 1648.
 \l@brazilian = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen189
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen190
+\subfiglabelskip=\skip60
+\c@subfigure=\count155
+\c@lofdepth=\count156
+\c@subtable=\count157
+\c@lotdepth=\count158
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
@@ -1011,8 +1031,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen189
-\pgf@nodesepend=\dimen190
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1027,8 +1047,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen191
-\pgffor@skip=\dimen192
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
@@ -1039,32 +1059,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count155
-\pgfplotmarksize=\dimen193
+\pgf@plot@mark@count=\count159
+\pgfplotmarksize=\dimen195
 )
-\tikz@lastx=\dimen194
-\tikz@lasty=\dimen195
-\tikz@lastxsaved=\dimen196
-\tikz@lastysaved=\dimen197
-\tikzleveldistance=\dimen198
-\tikzsiblingdistance=\dimen199
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
 \tikz@figbox=\box54
 \tikz@figbox@bg=\box55
 \tikz@tempbox=\box56
 \tikz@tempbox@bg=\box57
-\tikztreelevel=\count156
-\tikznumberofchildren=\count157
-\tikznumberofcurrentchild=\count158
-\tikz@fig@count=\count159
+\tikztreelevel=\count160
+\tikznumberofchildren=\count161
+\tikznumberofcurrentchild=\count162
+\tikz@fig@count=\count163
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count160
-\pgfmatrixcurrentcolumn=\count161
-\pgf@matrix@numberofcolumns=\count162
+\pgfmatrixcurrentrow=\count164
+\pgfmatrixcurrentcolumn=\count165
+\pgf@matrix@numberofcolumns=\count166
 )
-\tikz@expandcount=\count163
+\tikz@expandcount=\count167
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1075,9 +1095,9 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \t@pgfplots@toka=\toks47
 \t@pgfplots@tokb=\toks48
 \t@pgfplots@tokc=\toks49
-\pgfplots@tmpa=\dimen256
-\c@pgfplots@coordindex=\count164
-\c@pgfplots@scanlineindex=\count165
+\pgfplots@tmpa=\dimen258
+\c@pgfplots@coordindex=\count168
+\c@pgfplots@scanlineindex=\count169
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1093,7 +1113,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 soldpgfsupp_pgflibraryfpu.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count166
+\c@pgfmathroundto@lastzeros=\count170
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
 .tex
@@ -1103,13 +1123,13 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count167
+\c@pgfplotsarray@tmp=\count171
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count168
+\c@pgfplotstable@counta=\count172
 \t@pgfplotstable@a=\toks50
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
@@ -1122,7 +1142,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count169
+\c@pgfplotslibrarysurf@no=\count173
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1154,14 +1174,14 @@ x)
 s/tikzlibrarydecorations.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
 s.code.tex
-\pgfdecoratedcompleteddistance=\dimen257
-\pgfdecoratedremainingdistance=\dimen258
-\pgfdecoratedinputsegmentcompleteddistance=\dimen259
-\pgfdecoratedinputsegmentremainingdistance=\dimen260
-\pgf@decorate@distancetomove=\dimen261
-\pgf@decorate@repeatstate=\count170
-\pgfdecorationsegmentamplitude=\dimen262
-\pgfdecorationsegmentlength=\dimen263
+\pgfdecoratedcompleteddistance=\dimen259
+\pgfdecoratedremainingdistance=\dimen260
+\pgfdecoratedinputsegmentcompleteddistance=\dimen261
+\pgfdecoratedinputsegmentremainingdistance=\dimen262
+\pgf@decorate@distancetomove=\dimen263
+\pgf@decorate@repeatstate=\count174
+\pgfdecorationsegmentamplitude=\dimen264
+\pgfdecorationsegmentlength=\dimen265
 )
 \tikz@lib@dec@box=\box58
 )
@@ -1173,13 +1193,13 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count171
-\pgfplots@xmin@reg=\dimen264
-\pgfplots@xmax@reg=\dimen265
-\pgfplots@ymin@reg=\dimen266
-\pgfplots@ymax@reg=\dimen267
-\pgfplots@zmin@reg=\dimen268
-\pgfplots@zmax@reg=\dimen269
+\pgfplots@numplots=\count175
+\pgfplots@xmin@reg=\dimen266
+\pgfplots@xmax@reg=\dimen267
+\pgfplots@ymin@reg=\dimen268
+\pgfplots@ymax@reg=\dimen269
+\pgfplots@zmin@reg=\dimen270
+\pgfplots@zmax@reg=\dimen271
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryplotmarks.code.tex
@@ -1193,36 +1213,36 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count172
-\decimalpart=\count173
+\integerpart=\count176
+\decimalpart=\count177
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/systeme/systeme.tex
 \SYS@systemecode=\toks51
 \SYS@systempreamble=\toks52
-\SYSeqnum=\count174
+\SYSeqnum=\count178
 )
 Package: systeme 2013/12/21 v0.3 Mise en forme de systemes d'equations
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count175
+\lst@mode=\count179
 \lst@gtempboxa=\box59
 \lst@token=\toks53
-\lst@length=\count176
-\lst@currlwidth=\dimen270
-\lst@column=\count177
-\lst@pos=\count178
-\lst@lostspace=\dimen271
-\lst@width=\dimen272
-\lst@newlines=\count179
-\lst@lineno=\count180
-\lst@maxwidth=\dimen273
+\lst@length=\count180
+\lst@currlwidth=\dimen272
+\lst@column=\count181
+\lst@pos=\count182
+\lst@lostspace=\dimen273
+\lst@width=\dimen274
+\lst@newlines=\count183
+\lst@lineno=\count184
+\lst@maxwidth=\dimen275
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count181
-\lst@skipnumbers=\count182
+\c@lstnumber=\count185
+\lst@skipnumbers=\count186
 \lst@framebox=\box60
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -1234,8 +1254,8 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 rkeley.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emesidebar.sty
-\beamer@sidebarwidth=\dimen274
-\beamer@headheight=\dimen275
+\beamer@sidebarwidth=\dimen276
+\beamer@headheight=\dimen277
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
 emerectangles.sty)
@@ -1245,20 +1265,20 @@ emewhale.sty)
 emeorchid.sty)) (./slidesProjFinal.aux)
 \openout1 = `slidesProjFinal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1296,16 +1316,16 @@ LaTeX Font Info:    ... okay on input line 43.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count183
-\scratchdimen=\dimen276
+\scratchcounter=\count187
+\scratchdimen=\dimen278
 \scratchbox=\box61
-\nofMPsegments=\count184
-\nofMParguments=\count185
+\nofMPsegments=\count188
+\nofMParguments=\count189
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count186
-\MPscratchDim=\dimen277
-\MPnumerator=\count187
-\makeMPintoPDFobject=\count188
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen279
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
 \everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1326,7 +1346,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1334,68 +1354,68 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count189
+\c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (./slidesProjFinal.out) (./slidesProjFinal.out)
 \@outlinefile=\write6
 \openout6 = `slidesProjFinal.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 44.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 43.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 43.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 44.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 43.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 4
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-43.
+44.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 43.
+ut line 44.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1421,28 +1441,30 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 43.
+LaTeX Info: Redefining \includegraphics on input line 44.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into 
 your preamble.
- on input line 43.
+ on input line 44.
 
-\c@lstlisting=\count190
+\c@lstlisting=\count194
 (./slidesProjFinal.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 45.
+(hyperref)                setting the option has no effect on input line 46.
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 65.
+(Font)              size <5> substituted on input line 62.
 
 [2
+
+] [3
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
@@ -1459,20 +1481,20 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbackslash' on input line 6.
 
-) [3
+) [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 85.
+line 94.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1480,23 +1502,14 @@ thkerncmss.
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 85.
+(Font)              using `OT1/cmss/bx/n' instead on input line 94.
 
-[4
-
-]
-\openout4 = `slidesProjFinal.vrb'.
-
- (./slidesProjFinal.vrb) [5
+[5
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb)
-Overfull \vbox (4.32005pt too high) detected at line 121
- []
-
-[6
+ (./slidesProjFinal.vrb) [6
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
@@ -1506,13 +1519,13 @@ Overfull \vbox (4.32005pt too high) detected at line 121
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [8
+
+(./slidesProjFinal.vrb) [8
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
-
-(./slidesProjFinal.vrb) [9
+ (./slidesProjFinal.vrb) [9
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
@@ -1532,44 +1545,170 @@ Overfull \vbox (4.32005pt too high) detected at line 121
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [13
+
+(./slidesProjFinal.vrb) [13
+
+]
+\openout4 = `slidesProjFinal.vrb'.
+
+ (./slidesProjFinal.vrb) [14
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
 
-(./slidesProjFinal.vrb) [14
+(./slidesProjFinal.vrb) [15
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [15
-
-]
-\openout4 = `slidesProjFinal.vrb'.
-
-
-(./slidesProjFinal.vrb) [16
-
-]
-\openout4 = `slidesProjFinal.vrb'.
-
- (./slidesProjFinal.vrb) [17
+ (./slidesProjFinal.vrb) [16
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
 
-(./slidesProjFinal.vrb) [18
+(./slidesProjFinal.vrb) [17
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [19
+ (./slidesProjFinal.vrb) [18
 
-] [20
+]
+\openout4 = `slidesProjFinal.vrb'.
+
+
+(./slidesProjFinal.vrb) [19
+
+]
+\openout4 = `slidesProjFinal.vrb'.
+
+ (./slidesProjFinal.vrb) [20
 
 ] [21
+
+] [22
+
+]
+<futebolFutTotal.png, id=711, 395.4775pt x 266.9975pt>
+File: futebolFutTotal.png Graphic file (type png)
+
+<use futebolFutTotal.png>
+Package pdftex.def Info: futebolFutTotal.png used on input line 342.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolFutRadical.png, id=713, 395.4775pt x 266.9975pt>
+File: futebolFutRadical.png Graphic file (type png)
+
+<use futebolFutRadical.png>
+Package pdftex.def Info: futebolFutRadical.png used on input line 342.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolFutNoMatch.png, id=714, 395.4775pt x 266.9975pt>
+File: futebolFutNoMatch.png Graphic file (type png)
+
+<use futebolFutNoMatch.png>
+Package pdftex.def Info: futebolFutNoMatch.png used on input line 342.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolFutNR.png, id=715, 395.4775pt x 266.9975pt>
+File: futebolFutNR.png Graphic file (type png)
+ <use futebolFutNR.png>
+Package pdftex.def Info: futebolFutNR.png used on input line 342.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+[23
+
+ <./futebolFutTotal.png> <./futebolFutRadical.png> <./futebolFutNoMatch.png> <.
+/futebolFutNR.png>] <jogadorFutTotal.png, id=750, 395.4775pt x 266.9975pt>
+File: jogadorFutTotal.png Graphic file (type png)
+
+<use jogadorFutTotal.png>
+Package pdftex.def Info: jogadorFutTotal.png used on input line 364.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<jogadorFutRadical.png, id=751, 395.4775pt x 266.9975pt>
+File: jogadorFutRadical.png Graphic file (type png)
+
+<use jogadorFutRadical.png>
+Package pdftex.def Info: jogadorFutRadical.png used on input line 364.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<jogadorFutNoMatch.png, id=752, 395.4775pt x 266.9975pt>
+File: jogadorFutNoMatch.png Graphic file (type png)
+
+<use jogadorFutNoMatch.png>
+Package pdftex.def Info: jogadorFutNoMatch.png used on input line 364.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<jogadorFutNR.png, id=753, 395.4775pt x 266.9975pt>
+File: jogadorFutNR.png Graphic file (type png)
+ <use jogadorFutNR.png>
+Package pdftex.def Info: jogadorFutNR.png used on input line 364.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+[24
+
+ <./jogadorFutTotal.png> <./jogadorFutRadical.png> <./jogadorFutNoMatch.png> <.
+/jogadorFutNR.png>] [25
+
+] [26
+
+] [27
+
+]
+<futebolMedTotal.png, id=880, 395.4775pt x 266.9975pt>
+File: futebolMedTotal.png Graphic file (type png)
+
+<use futebolMedTotal.png>
+Package pdftex.def Info: futebolMedTotal.png used on input line 411.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolMedRadical.png, id=881, 395.4775pt x 266.9975pt>
+File: futebolMedRadical.png Graphic file (type png)
+
+<use futebolMedRadical.png>
+Package pdftex.def Info: futebolMedRadical.png used on input line 411.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolMedNoMatch.png, id=882, 395.4775pt x 266.9975pt>
+File: futebolMedNoMatch.png Graphic file (type png)
+
+<use futebolMedNoMatch.png>
+Package pdftex.def Info: futebolMedNoMatch.png used on input line 411.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+<futebolMedNR.png, id=883, 395.4775pt x 266.9975pt>
+File: futebolMedNR.png Graphic file (type png)
+ <use futebolMedNR.png>
+Package pdftex.def Info: futebolMedNR.png used on input line 411.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+
+[28
+
+ <./futebolMedTotal.png> <./futebolMedRadical.png> <./futebolMedNoMatch.png> <.
+/futebolMedNR.png>]
+File: futebolMedTotal.png Graphic file (type png)
+ <use futebolMedTotal.png>
+Package pdftex.def Info: futebolMedTotal.png used on input line 433.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+File: futebolMedRadical.png Graphic file (type png)
+ <use futebolMedRadical.png>
+Package pdftex.def Info: futebolMedRadical.png used on input line 433.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+File: futebolMedNoMatch.png Graphic file (type png)
+
+<use futebolMedNoMatch.png>
+Package pdftex.def Info: futebolMedNoMatch.png used on input line 433.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+File: futebolMedNR.png Graphic file (type png)
+ <use futebolMedNR.png>
+Package pdftex.def Info: futebolMedNR.png used on input line 433.
+(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+ [29
+
+] [30
 
 ]
 \tf@nav=\write7
@@ -1581,12 +1720,12 @@ Overfull \vbox (4.32005pt too high) detected at line 121
 \tf@snm=\write9
 \openout9 = `slidesProjFinal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
 
 (./slidesProjFinal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 440.
 Package rerunfilecheck Info: File `slidesProjFinal.out' has not changed.
 (rerunfilecheck)             Checksum: 807C73A696563DA7F7AC07C39EA3E17B;181.
 
@@ -1599,28 +1738,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32675 strings out of 492995
- 762221 string characters out of 6132703
- 1091065 words of memory out of 5000000
- 35498 multiletter control sequences out of 15000+600000
- 12582 words of font info for 46 fonts, out of 8000000 for 9000
+ 32953 strings out of 492995
+ 766733 string characters out of 6132703
+ 1091883 words of memory out of 5000000
+ 35739 multiletter control sequences out of 15000+600000
+ 13055 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,16n,98p,781b,1549s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on slidesProjFinal.pdf (21 pages, 173821 bytes).
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on slidesProjFinal.pdf (30 pages, 360369 bytes).
 PDF statistics:
- 728 PDF objects out of 1000 (max. 8388607)
- 681 compressed objects within 7 object streams
- 47 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1033 PDF objects out of 1200 (max. 8388607)
+ 948 compressed objects within 10 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

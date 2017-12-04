@@ -5,6 +5,7 @@
 \usepackage{amsmath}
 \usepackage{enumerate}
 \usepackage[]{graphicx}
+\usepackage{subfigure}
 \usepackage[]{color}
 \usepackage{pgfplots}
 \usepackage{systeme}
@@ -51,6 +52,14 @@
 	\end{frame}
 	
 	\section{Introdução}
+	\begin{frame}{Introdução}
+		\begin{itemize}
+			\item \textbf{Natural Language Processing(NLP)}\\
+			\item \textbf{Classificação de Texto}\\
+			\item \textbf{Perspectivas de Personalidade}\\
+			\item \textbf{Classificação de Emoção}
+		\end{itemize}
+	\end{frame}
 	
 	\section{Metodologia}
 	\begin{frame}{Metodologia}
@@ -60,7 +69,7 @@
 							\texttt{nltk} - para análise e processamento do texto\\
 							\texttt{skfuzzy} - para calcular relevância do texto através da lógica fuzzy\\
 							
-					\item \textbf{Textos para validação}
+					\item \textbf{Textos para validação} - \texttt{futebol.txt} e \texttt{medicina.txt}
 				\end{itemize}
 	\end{frame}
 	\begin{frame}[fragile]{Metodologia}
@@ -90,7 +99,6 @@ def matchWord(texto, dicionario):
 	bag_words ={} # Inicia o dicionario que vai guardar os matchs do dicionario no texto
 	for i in dicionario:
 		bag_words[i] = 0
-
 # Procura os matchs entre o dicionario e o texto; incrementa +1 quando encontra na chave do dicionario que
 # se refere a palavra que esta sendo analisada
 	for palavraTexto in texto:
@@ -110,13 +118,10 @@ def macthRadical(texto, dicionario):
 	dicStermmer = [stemmer.stem(w.lower()) for w in dicionario] # Transforma as palavras do texto em radicais
 	bag_words ={}
 	nMatch = {}  # Palavras que nao concordam com o radical
-
 	# Inicia o dicionario que sera usado para contabilizar os radicais e as palavras que nao tiveram match
 	for i in dicStermmer:
 		bag_words[i] = 0
 		nMatch[i] = 0
-
-
 \end{lstlisting}
 	\end{frame}
 
@@ -270,7 +275,7 @@ def fuzzyRelText(relTotal=0, relRadical=0, relNoMatch=0):
 	\end{frame}	
 
 	\begin{frame}[fragile]{Metodologia}
-\begin{lstlisting}[language=Python, caption = Lógica Fuzzy(cont.)]	
+\begin{lstlisting}[language=Python, caption = Resultado final]	
 	#Defuzzificacao
 	resultado.compute()
 	
@@ -295,7 +300,7 @@ print(rele/len(total))
 	
 	\section{Resultados}
 	\begin{frame}{Resultados}
-		\textbf{Texto:}\\
+		\textbf{Texto }\texttt{futebol.txt}\\
 		\texttt{\tiny Há relatos de um esporte muito parecido com o futebol, embora usava-se muito a violência. O Soule ou Harpastum era praticado na Idade Média por militares que se dividiam em duas equipes: atacantes e defensores. Era permitido usar socos, pontapés, rasteiras e outros golpes violentos. Há relatos que mostram a morte de alguns jogadores durante a partida. Cada equipe era formada por 27 jogadores, onde grupos tinham funções diferentes no time: corredores, dianteiros, sacadores e guarda-redes.
 			Na Itália Medieval apareceu um jogo denominado gioco del calcio. Era praticado em praças e os 27 jogadores de cada equipe deveriam levar a bola até os dois postes que ficavam nos dois cantos extremos da praça. A violência era muito comum, pois os participantes levavam para campo seus problemas causados, principalmente por questões sociais típicas da época medieval. 
 			O barulho, a desorganização e a violência eram tão grandes que o rei Eduardo II teve que decretar uma lei proibindo a prática do jogo, condenando a prisão os praticantes. Porém, o jogo não terminou, pois integrantes da nobreza criaram uma nova versão dele com regras que não permitiam a violência. Nesta nova versão, cerca de doze juízes deveriam fazer cumprir as regras do jogo.
@@ -305,8 +310,131 @@ print(rele/len(total))
 	\begin{frame}{Resultados}
 		\begin{itemize}
 			\item \textbf{Dicionário:  }\texttt{jogador;  futebol}\\
-			\item \textbf{Matches}
+			\item \textbf{Texto:  } \texttt{futebol.py}
+			\item \textbf{Matches:  } 
+				\begin{align*}
+					\text{'futebol'} \rightarrow &total = 1.0, radical = 0.125 \text{ e } noMatch = 0\\
+					\text{'jogador'} \rightarrow &total = 0.0, radical = 0.875 \text{ e } noMatch = 0
+				\end{align*}
 		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\begin{figure}[H]
+			\centering
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolFutTotal}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolFutRadical}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolFutNoMatch}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolFutNR}
+			}
+			\caption{Palavra 'futebol' no texto \texttt{futebol.txt}}	
+		\end{figure}
+	\end{frame}
+	
+		\begin{frame}
+	\begin{figure}[H]
+		\centering
+		\subfigure{
+			\includegraphics[width=0.4\linewidth]{jogadorFutTotal}
+		}
+		~
+		\subfigure{
+			\includegraphics[width=0.4\linewidth]{jogadorFutRadical}
+		}
+		~
+		\subfigure{
+			\includegraphics[width=0.4\linewidth]{jogadorFutNoMatch}
+		}
+		~
+		\subfigure{
+			\includegraphics[width=0.4\linewidth]{jogadorFutNR}
+		}
+		\caption{Palavra 'jogador' no texto \texttt{futebol.txt}}	
+	\end{figure}
+\end{frame}
+	
+	\begin{frame}{Resultados}
+		\textbf{Texto }\texttt{medicina.txt}\\
+		\texttt{\tiny A medicina é uma das muitas áreas do conhecimento ligada à manutenção e restauração da saúde. Ela trabalha, num sentido amplo, com a prevenção e cura das doenças humanas e animais num contexto médico.
+			Ações de saúde pública e ambiental, incluindo a saúde animal, promoção, prevenção, controle, erradicação e tratamento das doenças, traumatismos ou qualquer outro agravo à integridade e bem-estar animais, além do controlo de sanidade dos produtos e subprodutos de origem animal para o consumo humano e animal compreendem a área da medicina da responsabilidade do profissional de saúde médico veterinário.
+			Em Portugal, a saúde oral, higiene, integridade dentária, a sua limpeza e profilaxia compreendem a área da medicina da responsabilidade do Médico Dentista, que é um profissional da saúde capacitado na área de odontologia, e apesar de ter um âmbito de acção semelhante, não deve ser confundido com o Médico estomatologista. Porém no Brasil, odontologia e medicina são profissões distintas.
+			Segundo a Organização Mundial da Saúde, saúde não é apenas a ausência de doença. Consiste no bem-estar físico, mental, psicológico e social do indivíduo. }
+	\end{frame}
+	
+	\begin{frame}{Resultados}
+		\texttt{\tiny É um estado cumulativo, que deve ser promovido durante toda a vida, de maneira a assegurar-se de que seus benefícios sejam integralmente desfrutados em dias posteriores. Nesse contexto, diretrizes de organizações supra-nacionais compostas por eminentes intelectuais do globo relacionados à área de saúde estabeleceram um novo paradigma de abordagem em medicina. O santo patrono da Medicina é São Lucas.}
+	\end{frame}
+	
+	
+	\begin{frame}{Resultados}
+		\begin{itemize}
+			\item \textbf{Dicionário:  }\texttt{jogador;  futebol}\\
+			\item \textbf{Texto:  } \texttt{medicina.py}
+			\item \textbf{Matches:  } 
+				\begin{align*}
+					\text{'futebol'} \rightarrow &total = 1.0, radical = 0.125 \text{ e } noMatch = 0\\
+					\text{'jogador'} \rightarrow &total = 0.0, radical = 0.875 \text{ e } noMatch = 0
+				\end{align*}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\begin{figure}[H]
+			\centering
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedTotal}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedRadical}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedNoMatch}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedNR}
+			}
+			\caption{Palavra 'futebol' no texto \texttt{medicina.txt}}	
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\begin{figure}[H]
+			\centering
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedTotal}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedRadical}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedNoMatch}
+			}
+			~
+			\subfigure{
+				\includegraphics[width=0.4\linewidth]{futebolMedNR}
+			}
+			\caption{Palavra 'jogador' no texto \texttt{medicina.txt}}	
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}[plain]
+		\centering
+		\Large Conclusões
 	\end{frame}
 	
 \end{document}
