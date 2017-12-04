@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 DEC 2017 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.10)  4 DEC 2017 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,19 +1250,12 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBe
-rkeley.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeDr
+esden.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emesidebar.sty
-\beamer@sidebarwidth=\dimen276
-\beamer@headheight=\dimen277
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerectangles.sty)
+ememiniframes.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewhale.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emeorchid.sty)) (./slidesProjFinal.aux)
+emewhale.sty)) (./slidesProjFinal.aux)
 \openout1 = `slidesProjFinal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1288,14 +1281,14 @@ LaTeX Font Info:    ... okay on input line 44.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=290.74263pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-13.04362pt
-* \evensidemargin=-13.04362pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1317,13 +1310,13 @@ LaTeX Font Info:    ... okay on input line 44.
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count187
-\scratchdimen=\dimen278
+\scratchdimen=\dimen276
 \scratchbox=\box61
 \nofMPsegments=\count188
 \nofMParguments=\count189
 \everyMPshowfont=\toks54
 \MPscratchCnt=\count190
-\MPscratchDim=\dimen279
+\MPscratchDim=\dimen277
 \MPnumerator=\count191
 \makeMPintoPDFobject=\count192
 \everyMPtoPDFconversion=\toks55
@@ -1458,6 +1451,23 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 62.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 62.
@@ -1484,22 +1494,6 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ) [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 94.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 94.
@@ -1514,13 +1508,16 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [7
+ (./slidesProjFinal.vrb)
+Overfull \vbox (8.45589pt too high) detected at line 126
+ []
+
+[7
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
-
-(./slidesProjFinal.vrb) [8
+ (./slidesProjFinal.vrb) [8
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
@@ -1530,7 +1527,8 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [10
+
+(./slidesProjFinal.vrb) [10
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
@@ -1540,113 +1538,114 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [12
+
+(./slidesProjFinal.vrb) [12
+
+]
+\openout4 = `slidesProjFinal.vrb'.
+
+ (./slidesProjFinal.vrb) [13
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
 
-(./slidesProjFinal.vrb) [13
+(./slidesProjFinal.vrb) [14
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [14
-
-]
-\openout4 = `slidesProjFinal.vrb'.
-
-
-(./slidesProjFinal.vrb) [15
-
-]
-\openout4 = `slidesProjFinal.vrb'.
-
- (./slidesProjFinal.vrb) [16
+ (./slidesProjFinal.vrb) [15
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
 
-(./slidesProjFinal.vrb) [17
+(./slidesProjFinal.vrb) [16
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [18
+ (./slidesProjFinal.vrb) [17
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
 
-(./slidesProjFinal.vrb) [19
+(./slidesProjFinal.vrb) [18
 
 ]
 \openout4 = `slidesProjFinal.vrb'.
 
- (./slidesProjFinal.vrb) [20
+ (./slidesProjFinal.vrb) [19
+
+]
+\openout4 = `slidesProjFinal.vrb'.
+
+
+(./slidesProjFinal.vrb) [20
 
 ] [21
 
 ] [22
 
 ]
-<futebolFutTotal.png, id=711, 395.4775pt x 266.9975pt>
+<futebolFutTotal.png, id=717, 395.4775pt x 266.9975pt>
 File: futebolFutTotal.png Graphic file (type png)
 
 <use futebolFutTotal.png>
 Package pdftex.def Info: futebolFutTotal.png used on input line 342.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolFutRadical.png, id=713, 395.4775pt x 266.9975pt>
+<futebolFutRadical.png, id=719, 395.4775pt x 266.9975pt>
 File: futebolFutRadical.png Graphic file (type png)
 
 <use futebolFutRadical.png>
 Package pdftex.def Info: futebolFutRadical.png used on input line 342.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolFutNoMatch.png, id=714, 395.4775pt x 266.9975pt>
+<futebolFutNoMatch.png, id=720, 395.4775pt x 266.9975pt>
 File: futebolFutNoMatch.png Graphic file (type png)
 
 <use futebolFutNoMatch.png>
 Package pdftex.def Info: futebolFutNoMatch.png used on input line 342.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolFutNR.png, id=715, 395.4775pt x 266.9975pt>
+<futebolFutNR.png, id=721, 395.4775pt x 266.9975pt>
 File: futebolFutNR.png Graphic file (type png)
  <use futebolFutNR.png>
 Package pdftex.def Info: futebolFutNR.png used on input line 342.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
 [23
 
  <./futebolFutTotal.png> <./futebolFutRadical.png> <./futebolFutNoMatch.png> <.
-/futebolFutNR.png>] <jogadorFutTotal.png, id=750, 395.4775pt x 266.9975pt>
+/futebolFutNR.png>] <jogadorFutTotal.png, id=756, 395.4775pt x 266.9975pt>
 File: jogadorFutTotal.png Graphic file (type png)
 
 <use jogadorFutTotal.png>
 Package pdftex.def Info: jogadorFutTotal.png used on input line 364.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<jogadorFutRadical.png, id=751, 395.4775pt x 266.9975pt>
+<jogadorFutRadical.png, id=757, 395.4775pt x 266.9975pt>
 File: jogadorFutRadical.png Graphic file (type png)
 
 <use jogadorFutRadical.png>
 Package pdftex.def Info: jogadorFutRadical.png used on input line 364.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<jogadorFutNoMatch.png, id=752, 395.4775pt x 266.9975pt>
+<jogadorFutNoMatch.png, id=758, 395.4775pt x 266.9975pt>
 File: jogadorFutNoMatch.png Graphic file (type png)
 
 <use jogadorFutNoMatch.png>
 Package pdftex.def Info: jogadorFutNoMatch.png used on input line 364.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<jogadorFutNR.png, id=753, 395.4775pt x 266.9975pt>
+<jogadorFutNR.png, id=759, 395.4775pt x 266.9975pt>
 File: jogadorFutNR.png Graphic file (type png)
  <use jogadorFutNR.png>
 Package pdftex.def Info: jogadorFutNR.png used on input line 364.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
 [24
 
@@ -1658,32 +1657,32 @@ Package pdftex.def Info: jogadorFutNR.png used on input line 364.
 ] [27
 
 ]
-<futebolMedTotal.png, id=880, 395.4775pt x 266.9975pt>
+<futebolMedTotal.png, id=886, 395.4775pt x 266.9975pt>
 File: futebolMedTotal.png Graphic file (type png)
 
 <use futebolMedTotal.png>
 Package pdftex.def Info: futebolMedTotal.png used on input line 411.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolMedRadical.png, id=881, 395.4775pt x 266.9975pt>
+<futebolMedRadical.png, id=887, 395.4775pt x 266.9975pt>
 File: futebolMedRadical.png Graphic file (type png)
 
 <use futebolMedRadical.png>
 Package pdftex.def Info: futebolMedRadical.png used on input line 411.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolMedNoMatch.png, id=882, 395.4775pt x 266.9975pt>
+<futebolMedNoMatch.png, id=888, 395.4775pt x 266.9975pt>
 File: futebolMedNoMatch.png Graphic file (type png)
 
 <use futebolMedNoMatch.png>
 Package pdftex.def Info: futebolMedNoMatch.png used on input line 411.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
-<futebolMedNR.png, id=883, 395.4775pt x 266.9975pt>
+<futebolMedNR.png, id=889, 395.4775pt x 266.9975pt>
 File: futebolMedNR.png Graphic file (type png)
  <use futebolMedNR.png>
 Package pdftex.def Info: futebolMedNR.png used on input line 411.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 
 [28
 
@@ -1692,20 +1691,20 @@ Package pdftex.def Info: futebolMedNR.png used on input line 411.
 File: futebolMedTotal.png Graphic file (type png)
  <use futebolMedTotal.png>
 Package pdftex.def Info: futebolMedTotal.png used on input line 433.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 File: futebolMedRadical.png Graphic file (type png)
  <use futebolMedRadical.png>
 Package pdftex.def Info: futebolMedRadical.png used on input line 433.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 File: futebolMedNoMatch.png Graphic file (type png)
 
 <use futebolMedNoMatch.png>
 Package pdftex.def Info: futebolMedNoMatch.png used on input line 433.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
 File: futebolMedNR.png Graphic file (type png)
  <use futebolMedNR.png>
 Package pdftex.def Info: futebolMedNR.png used on input line 433.
-(pdftex.def)             Requested size: 116.29527pt x 78.51505pt.
+(pdftex.def)             Requested size: 122.91406pt x 82.98021pt.
  [29
 
 ] [30
@@ -1738,13 +1737,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32953 strings out of 492995
- 766733 string characters out of 6132703
- 1091883 words of memory out of 5000000
- 35739 multiletter control sequences out of 15000+600000
- 13055 words of font info for 48 fonts, out of 8000000 for 9000
+ 32933 strings out of 492995
+ 765854 string characters out of 6132703
+ 1092883 words of memory out of 5000000
+ 35723 multiletter control sequences out of 15000+600000
+ 14095 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,16n,98p,781b,1549s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,98p,781b,1550s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
@@ -1757,11 +1756,12 @@ local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on slidesProjFinal.pdf (30 pages, 360369 bytes).
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on slidesProjFinal.pdf (30 pages, 368674 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 948 compressed objects within 10 object streams
+ 1042 PDF objects out of 1200 (max. 8388607)
+ 951 compressed objects within 10 object streams
  65 named destinations out of 1000 (max. 500000)
  135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
